@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --neutral-100: #130F1E;
+  --primary-color: #8257E5;
+  --primary-color-hover: #9674E5;
+  --secondary-color: #3C3748;
+  --secondary-color-hover: #6A617F;
+  --stroke: #D9CDF7;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  min-height: 100vh;
+  background: var(--neutral-100);
+}
+
